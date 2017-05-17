@@ -1,6 +1,12 @@
 .Rproj.user
 .Rhistory
 .RData
+.DS_Store
 .Ruserdata
 *.csv
 *.RData
+.httr-oauth
+
+# Sensitive info
+R/twitterauth.R
+ideas.txt

@@ -14,6 +14,15 @@ hr.113 <- read_csv("data/hr113.csv")
 hr.113 <- hr.113[apply(hr.113,1,function(x) sum(is.na(x))) != 21, ]
 
 
+
+
+
+
+
+
+
+
+
 # LETS look at 114 and 113 congress
 set.seed(150)
 alldata <- rbind(hr.114, hr.113)
